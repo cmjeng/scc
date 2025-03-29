@@ -1,0 +1,9 @@
+select 
+  name, 
+  resource.location, 
+  resource.data.purpose, 
+  resource.data.createTime, 
+  resource.data.nextRotationTime, 
+  resource.data.rotationPeriod 
+from 
+  cloudkms_googleapis_com_CryptoKey
