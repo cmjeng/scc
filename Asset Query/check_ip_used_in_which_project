@@ -1,0 +1,7 @@
+select 
+  name, 
+  resource.data.address 
+from 
+  compute_googleapis_com_GlobalAddress 
+where 
+  resource.data.address = 'xxx.xxx.xxx.xxx'
