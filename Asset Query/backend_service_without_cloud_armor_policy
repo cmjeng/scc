@@ -1,0 +1,7 @@
+select 
+  name, 
+  resource.data.name, 
+  resource.data.securityPolicy, 
+  resource.data.iap.enabled 
+from 
+  compute_googleapis_com_BackendService
