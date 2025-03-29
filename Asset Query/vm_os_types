@@ -1,0 +1,5 @@
+select 
+  name, 
+  resource.data.disks[0].licenses 
+from 
+  compute_googleapis_com_Instance
